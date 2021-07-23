@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rifki Setiawan</title>
+</head>
+<body>
+	<script>
+		var nama = prompt("Nama Lengkap anda");
+		var nilai = prompt("Nilai anda");
+
+		if (nilai > 70) {
+			alert("SELAMAT ANDA LULUS!");
+			document.write(nama + ", Selamat ya, kamu Lulus dengan Nilai "+ nilai);
+			console.log("Nama: " + nama + "\nNilai : " + nilai);
+		} else if (nilai <= 70){
+			alert("MOHON MAAF ANDA TIDAK LULUS ...HIKS HIKS:(");
+			document.write(nama + ", Maap yaaa, Anda tidak Lulus :( karena nilai anda tidak memenuhi KKM yaitu " + nilai);
+			console.log("Nama: " + nama + "\nNilai : " + nilai);
+		} else {
+			alert("INPUTAN ANDA SALAH!");
+		}
+	</script>
+</body>
+</html>
